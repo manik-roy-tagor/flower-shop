@@ -58,15 +58,15 @@
     text-align: center;
 }
 
-.featured-title {
+.section-title {
     font-size: 25px;
     font-weight: bolder;
     color: #272727;
 }
 
-.featured-desc {
+.section-desc {
     width: 40%;
-    margin: auto;
+    margin: 14px auto;
     color: rgba(39, 39, 39, 0.60);
 }
 
@@ -118,8 +118,6 @@
     color: #E55473;
 }
 
-.deal-left {}
-
 .deal-title {
     color: #272727;
     font-weight: bolder;
@@ -131,8 +129,21 @@
 
 }
 
-.deal-right {}
-
 .hot-deal-img {
     height: 300px;
+}
+
+/* Instagram section styles */
+.instagram-section{
+
+}
+.insta-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.insta-img{
+    width: 230px;
+    height: 260px;
 }
